@@ -3,9 +3,6 @@
 int main() {
     int a;
     scanf("%d", &a);
-    if (a == 1)
-        printf("t");
-    else
-        printf("f");
+    printf("%c", a == 1 ? 't' : 'f');
     return 0;
 }
