@@ -3,7 +3,7 @@
 int main() {
     double a;
     scanf("%lf", &a);
-    if(a > 1)
+    if(a >= 1)
         printf("High");
     else if(a >= 0.5)
         printf("Middle");
