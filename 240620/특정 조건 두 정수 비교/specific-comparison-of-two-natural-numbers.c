@@ -10,6 +10,6 @@ int main() {
     if (a == b)
         printf("1");
     else
-        pirntf("0");
+        printf("0");
     return 0;
 }
