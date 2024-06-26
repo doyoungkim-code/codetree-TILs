@@ -5,7 +5,7 @@ int main() {
 	int a;
 	scanf("%d", &a);
 
-	if (1 <= a && a <= 100) {
+	if (10<= a && a <= 20) {
 		printf("yes");
 	}
 	else {
