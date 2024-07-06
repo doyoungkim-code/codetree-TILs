@@ -6,10 +6,10 @@ int main() {
 	scanf("%d", &a);
 
 	if ((a % 3 == 0 && a % 2 == 1) || (a % 2 == 0 && a % 5 == 0)) {
-		printf("special");
+		printf("true");
 	}
 	else {
-		printf("normal");
+		printf("false");
 	}
 
 	return 0;
