@@ -6,9 +6,9 @@ int main() {
     if(a >= 90)
     {
         if(b >= 95)
-            printf("10");
+            printf("100000");
         else if(b >= 90)
-            printf("5");
+            printf("50000");
         else
             printf("0");
     }
