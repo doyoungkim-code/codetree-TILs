@@ -6,6 +6,6 @@ int main() {
     int b = 23;
     int c = 30;
 
-    cout << a << "+" << b << "=" << c;
+    cout << a << " + " << b << " = " << c;
     return 0;
 }
