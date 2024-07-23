@@ -7,6 +7,6 @@ int main() {
     double a = 0.165;
 
     cout.precision(6);
-    cout << a << " * "<< b << " = "<< a * b << endl;
+    cout << b << " * "<< a << " = "<< a * b << endl;
     return 0;
 }
