@@ -12,5 +12,7 @@ int main() {
             b--;
         }
     }
+    else
+        cout << '0';
     return 0;
 }
