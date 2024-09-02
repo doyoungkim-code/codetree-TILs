@@ -10,7 +10,7 @@ int main() {
         if(a % 2 == 1)
             a == a * 2;
         else
-            a == a * 3;
+            a == a + 3;
     }
     return 0;
 }
