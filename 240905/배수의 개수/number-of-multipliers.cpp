@@ -13,7 +13,12 @@ int main() {
     while(n)
     {
         cin >> a;
-        if(a % 3 == 0)
+        if (a % 3 == 0 && a % 5 == 0)
+        {
+            c1 ++;
+            c2 ++;
+        }
+        else if(a % 3 == 0)
             c1 ++;
         else if (a % 5 == 0)
             c2 ++;
