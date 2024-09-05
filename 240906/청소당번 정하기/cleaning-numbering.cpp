@@ -9,7 +9,7 @@ int main() {
     int hwa = 0;
 
     cin >> a;
-    while(i < a)
+    while(i <= a)
     {
         if (i == 0)
         {
