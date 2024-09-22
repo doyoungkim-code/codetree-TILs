@@ -6,7 +6,7 @@ int main() {
     int i = 0;
 
     cin >> n;
-    while(i++ <= n)
+    while(i++ < n)
     {
         if (i % 2 == 0)
             continue;
