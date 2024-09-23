@@ -6,13 +6,13 @@ int main() {
     int i = 0;
 
     cin >> a;
-    while(i++ <= a)
+    while(i++ < a)
     {
         if(i % 2 == 0 && i % 4 != 0)
             continue ;
-        if((i % 8) % 2 == 0)
+        if((i / 8) % 2 == 0)
             continue ;
-        if (i % 7 < 4)
+        if ((i % 7) < 4)
             continue ;
         cout << i << " ";
     }
