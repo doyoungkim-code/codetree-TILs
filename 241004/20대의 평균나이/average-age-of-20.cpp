@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int n;
     int sum = 0;
-    int i = 0;
+    int i = 1;
 
     while(1)
     {
