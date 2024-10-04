@@ -4,12 +4,12 @@ using namespace std;
 int main() {
     int n;
     int sum = 0;
-    int i = 1;
+    int i = 0;
 
     while(1)
     {
         cin >> n;
-        if (n < 30)
+        if (20 <= n && n < 30)
             sum = sum + n;
         else
             break ;
