@@ -11,7 +11,7 @@ int main() {
         cin >> n;
         if (n < 30)
             sum = sum + n;
-        if (n >= 30)
+        else
             break ;
         i ++;
     }
