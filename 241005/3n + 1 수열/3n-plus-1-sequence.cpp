@@ -8,6 +8,8 @@ int main() {
     cin >> n;
     while(1)
     {
+        if (n == 1)
+            break ;
         if (n % 2 == 0)
             n = n / 2;
         else
