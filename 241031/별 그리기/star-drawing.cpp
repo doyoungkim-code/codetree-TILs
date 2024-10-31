@@ -34,7 +34,7 @@ int main() {
             j ++;
         }
         j = 0;
-        while(j < n - (2 * i))
+        while(j < (2 * n) - (2 * i) - 3)
         {
             cout << "*";
             j ++;
