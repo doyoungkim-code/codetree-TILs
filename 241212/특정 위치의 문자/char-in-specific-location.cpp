@@ -11,7 +11,7 @@ int main() {
 
     cin >> c;
 	// 문자 탐색
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < 6; i++) {
 		if (word[i] == c) {
 			idx = i;
 		}
